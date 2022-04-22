@@ -11,7 +11,7 @@ Funcionalidades do produto:
 Será utilizado um Arduino Uno, conectado a um sensor de temperatura, LCD 16 x 2, led RGB e buzzer(pastilha piezo) para gerar aviso visual e sonoro da temperatura na caixa, além de um push button para desativar o buzzer, caso o mesmo incomode o cliente, além de um sensor infravermelho E18-d80nk posicionado do lado da saída para abelhas da caixa, gerando também outro output para o LCD 16 x 2, a quantidade de abelhas, portanto nosso projeto garante a manutenção das necessidades básicas para a meliponicultura, avisando o meliponicultor em tempo real dos problemas que o enxame de meliponas está sofrendo. 
 
 Integrantes do projeto(nome/ conta no github):
-Victor Sabaa Srur do Nascimento Ximenes/ V1ctorSabaa
+Victor Sabaa/ V1ctorSabaa
 Luis Andre/
 Gleidson Diniz/ 
 Robertson Mateus/ 
