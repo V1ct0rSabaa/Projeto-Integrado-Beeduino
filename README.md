@@ -13,4 +13,4 @@ Será utilizado um Arduino Uno, conectado a um sensor de temperatura ds18b20 wat
  - Victor Sabaa/ V1ctorSabaa
  - Luis Andre/ luizandre0307 
  - Gleidson Diniz/ gdiniz200
- - Vinicius Henrique/ 
+ - Vinicius Henrique/ ViniciusH2101
