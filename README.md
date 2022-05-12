@@ -1,4 +1,5 @@
-Título do projeto: Beeduino
+## Título do projeto: 
+Beeduino, o sistema de monitoramento inteligente de caixa de abelha.
 
 ## Objetivo do projeto: 
 Desenvolver um sistema de monitoramento de caixas de abelhas melíponas(abelhas sem ferrão), nosso grupo pretende usar uma caixa de abelhas e colocar arduino conectado a vários sensores perto da caixa, para poder monitorar a temperatura, gerar uma estimativa da quantidade de abelhas e avisar o dono da caixa quando a caixa estiver em uma situação crítica, assim garantindo a sobrevivência das abelhas e por consequência, maior produção de mel.
