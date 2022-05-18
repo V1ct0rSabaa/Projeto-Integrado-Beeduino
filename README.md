@@ -11,7 +11,7 @@ Na ilha das onças, principalmente na "casa do Celso", há alguns enxames de abe
 Será utilizado um Arduino Uno, conectado a um sensor de temperatura ds18b20 waterproof , LCD 16 x 2, led RGB e buzzer(pastilha piezo) para gerar aviso visual e sonoro da temperatura na caixa, além de 4 push buttons para desativar o buzzer, caso o mesmo incomode o cliente, configuração do sistema de alarme de temperatura e mostrar dados, além de um sensor infravermelho E18-d80nk posicionado do lado da saída para abelhas da caixa, gerando também outro output para o LCD 16 x 2, a quantidade de abelhas, portanto nosso projeto garante a manutenção das necessidades básicas para a meliponicultura, avisando o meliponicultor em tempo real dos problemas que o enxame de meliponas está sofrendo. 
 
 ## Integrantes do projeto(nome/ conta no github):
- - Victor Sabaa/ V1ctorSabaa
+ - Victor Sabaa/ V1ct0rSabaa
  - Luis Andre/ luizandre0307 
  - Gleidson Diniz/ gdiniz200
  - Vinicius Henrique/ ViniciusH2101
