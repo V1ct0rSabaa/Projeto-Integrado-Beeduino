@@ -10,8 +10,6 @@ OneWire oneWire(CABO_TEMPERATURA);  // Prepara uma instância oneWire para comun
 
 DallasTemperature sensors(&oneWire); // Passa uma referência oneWire para a biblioteca DallasTemperature
 
-//int infravermelho = 6; // pino do sensor infravermelho
-
 int azul = 3; // pinos do led rgb
 int verde = 4;
 int vermelho = 5;
@@ -33,21 +31,11 @@ void get_azul(){
   analogWrite(azul, 255);
   analogWrite(vermelho, 0);
 }
-// parte do sensor infravermelho
-/*
-void get_infravermelho(){
-  if(digitalRead(infravermelho) == LOW){ //SE A LEITURA DO PINO FOR IGUAL A LOW
-    display.setCursor(0, 1); 
-    display.clear();
-    display.print("Abelha passou pelo");
-  }
-}*/
 
 void setup(void)
 {
   sensors.begin();  // Inicia a biblioteca
   display.begin(16, 2);
-  //pinMode(infravermelho, INPUT_PULLUP); // pino do input do sensor infravermelho
   Serial.begin(9600);
 }
 
@@ -80,6 +68,3 @@ void loop(void)
   }
   delay(1000 * 0.2);
 }
-
-
-
