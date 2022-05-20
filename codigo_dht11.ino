@@ -32,10 +32,6 @@ void get_azul(){
   analogWrite(vermelho, 0);
 }
 
-void get_temp_umidade(){
-  
-
-}
 void setup(void)
 {
   display.begin(16, 2);
@@ -50,6 +46,11 @@ void loop(void)
   float temperatura = dht.readTemperature();
   float temperatura_minima = 22.00;
   float temperatura_maxima = 30.00;
+  
+  if (isnan(umidade) || isnan(temperatura)) { //Verifica se a umidade ou temperatura são ou não um número
+    //se umidade e/ou temperatura não tiverem recebido um valor numerico, reinicia a função loop
+    return; //Caso não seja um número retorna
+  }
   //parte do LCD
   display.clear(); //limpando tela
   //mostrar temperatura
