@@ -1,5 +1,4 @@
 // Código com led RGB, LCD 16 x 2 e sensor de temperatura DHT11
-
 #include <LiquidCrystal.h>  // biblioteca do lcd 16x2
 #include <DHT.h> // Inclui a biblioteca do DHT 
 
