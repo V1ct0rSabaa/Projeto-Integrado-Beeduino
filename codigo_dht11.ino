@@ -61,7 +61,7 @@ void loop(void)
   display.setCursor(0, 1);
   display.print("Umid: ");
   display.print(umidade);
-  display.pritn("%");
+  display.print("%");
   if (temperatura >= temperatura_maxima){
     display.setCursor(0, 1); 
     display.print("Muito quente!");
@@ -75,11 +75,9 @@ void loop(void)
   else{
     get_verde();
     display.setCursor(0, 1); 
-    display.print("Temperatura boa!");
-    delay(1000 * 0.5);
     display.print("Umid: ");
     display.print(umidade);
-    display.pritn("%");
+    display.print("%");
   }
   delay(1000 * 0.2);
 }
